@@ -16,26 +16,32 @@ const Contact = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitMessage({
-        type: "success",
-        text: "Thank you! Your message has been sent successfully.",
+    try {
+      const response = await fetch("https://formspree.io/f/mvgakdvn", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
-      setFormData({ name: "", email: "", message: "" });
 
-      // Clear success message after 5 seconds
-      setTimeout(() => {
-        setSubmitMessage(null);
-      }, 5000);
-    }, 1500);
+      if (response.ok) {
+        setSubmitMessage({ type: "success", text: "Message sent!" });
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        throw new Error("Failed to send");
+      }
+    } catch {
+      setSubmitMessage({ type: "error", text: "Error sending message." });
+    } finally {
+      setIsSubmitting(false);
+      setTimeout(() => setSubmitMessage(null), 5000);
+    }
   };
-
   return (
     <section id="contact" className="py-20 bg-[#0a1324]">
       <div className="container mx-auto px-6">
