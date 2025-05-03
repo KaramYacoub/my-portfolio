@@ -14,6 +14,7 @@ export const projects = [
     tech: ["JavaScript", "React.js", "Tailwind CSS"],
     image: Portfolio,
     github: "https://github.com/Karamarandas/Portfolio",
+    isDeployed: false,
     live: "#",
   },
   {
@@ -30,6 +31,7 @@ export const projects = [
     ],
     image: MovieHub,
     github: "https://github.com/Karamarandas/MovieHub",
+    isDeployed: false,
     live: "#",
   },
   {
@@ -46,6 +48,7 @@ export const projects = [
     ],
     image: blogapp,
     github: "https://github.com/Karamarandas/Blog-app",
+    isDeployed: false,
     live: "#",
   },
   {
@@ -54,6 +57,7 @@ export const projects = [
     tech: ["JavaScript", "React.js", "CSS", "local storage"],
     image: shoppingcart,
     github: "https://github.com/Karamarandas/shopping-cart",
+    isDeployed: false,
     live: "#",
   },
   {
@@ -62,6 +66,7 @@ export const projects = [
     tech: ["JavaScript", "Node.js", "Express.js", "EJS", "CSS"],
     image: weatherapp,
     github: "https://github.com/Karamarandas/Weather-app",
+    isDeployed: false,
     live: "#",
   },
   {
@@ -70,6 +75,7 @@ export const projects = [
     tech: ["JavaScript", "React.js", "CSS"],
     image: TicTacToe,
     github: "https://github.com/Karamarandas/Tic-Tac-Toe",
+    isDeployed: false,
     live: "#",
   },
   {
@@ -78,6 +84,7 @@ export const projects = [
     tech: ["JavaScript", "Node.js", "Express.js", "PostgreSQL", "EJS", "CSS"],
     image: todo,
     github: "https://github.com/Karamarandas/TODO-List",
+    isDeployed: false,
     live: "#",
   },
 ];

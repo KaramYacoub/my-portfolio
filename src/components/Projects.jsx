@@ -51,13 +51,15 @@ function Projects() {
                     <Github size={18} className="mr-1" />
                     <span>Code</span>
                   </a>
-                  <a
-                    href={project.live}
-                    className="flex items-center text-gray-400 hover:text-white transition-colors"
-                  >
-                    <ExternalLink size={18} className="mr-1" />
-                    <span>Live</span>
-                  </a>
+                  {project.isDeployed && (
+                    <a
+                      href={project.live}
+                      className="flex items-center text-gray-400 hover:text-white transition-colors"
+                    >
+                      <ExternalLink size={18} className="mr-1" />
+                      <span>Live</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
