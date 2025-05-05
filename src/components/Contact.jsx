@@ -145,7 +145,7 @@ const Contact = () => {
                 <Mail size={24} className="mr-4 text-blue-400" />
                 <div>
                   <h4 className="font-medium text-white">Email</h4>
-                  <p className="text-gray-400">karamarandas03@gmail.com</p>
+                  <a href='mailto:karamarandas03@gmail.com' className="link link-primary">karamarandas03@gmail.com</a>
                 </div>
               </div>
 
