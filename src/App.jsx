@@ -13,7 +13,7 @@ function App() {
   // Handle scroll to track active section
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["hero", "about", "projects", "experience", "contact"];
+      const sections = ["hero", "about", "projects", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       // Find current active section

@@ -54,6 +54,7 @@ function Projects() {
                   {project.isDeployed && (
                     <a
                       href={project.live}
+                      target="_blank"
                       className="flex items-center text-gray-400 hover:text-white transition-colors"
                     >
                       <ExternalLink size={18} className="mr-1" />

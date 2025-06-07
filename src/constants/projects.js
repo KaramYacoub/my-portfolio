@@ -14,8 +14,8 @@ export const projects = [
     tech: ["JavaScript", "React.js", "Tailwind CSS"],
     image: Portfolio,
     github: "https://github.com/Karamarandas/my-Portfolio",
-    isDeployed: false,
-    live: "#",
+    isDeployed: true,
+    live: "https://karamportfolio.netlify.app/",
   },
   {
     title: "MovieHub",

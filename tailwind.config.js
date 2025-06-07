@@ -16,5 +16,32 @@ export default {
     },
   },
   plugins: [daisyui],
-  daisyui: {},
+  daisyui: {
+    themes: [
+      {
+        portfoliodark: {
+          primary: "#3B82F6",
+          secondary: "#374151",
+          accent: "#A855F7",
+          neutral: "#1E293B",
+          "base-100": "#0F172A",
+          info: "#38BDF8",
+          success: "#22C55E",
+          warning: "#FACC15",
+          error: "#EF4444",
+        },
+        portfoliolight: {
+          primary: "#2563EB",
+          secondary: "#E5E7EB",
+          accent: "#9333EA",
+          neutral: "#F3F4F6",
+          "base-100": "#FFFFFF",
+          info: "#38BDF8",
+          success: "#22C55E",
+          warning: "#FACC15",
+          error: "#EF4444",
+        },
+      },
+    ],
+  },
 };
