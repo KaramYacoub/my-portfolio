@@ -13,7 +13,16 @@ function About() {
     ],
     backend: ["Node.js", "Express.js", "C#", "ASP.NET", "Java"],
     database: ["MongoDB", "PostgreSQL", "MySQL"],
-    others: ["Git", "GitHub", "VS Code", "Visual Studio", "Figma", "Postman"],
+    others: [
+      "Git",
+      "GitHub",
+      "MVC Architecture",
+      "RESTful APIs",
+      "VS Code",
+      "Visual Studio",
+      "Figma",
+      "Postman",
+    ],
   };
 
   const icons = {

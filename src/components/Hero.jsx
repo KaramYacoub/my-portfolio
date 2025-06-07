@@ -42,7 +42,7 @@ function Hero() {
               </Link>
 
               <a
-                href="https://github.com/Karamarandas"
+                href="https://github.com/KaramYacoub"
                 target="_blank"
                 className="px-6 py-3 bg-transparent hover:bg-gray-800 transition-colors rounded flex items-center"
               >

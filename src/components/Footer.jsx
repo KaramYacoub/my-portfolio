@@ -57,7 +57,7 @@ function Footer() {
 
           <div className="flex space-x-4">
             <a
-              href="https://github.com/Karamarandas"
+              href="https://github.com/KaramYacoub"
               target="_blank"
               className="text-gray-400 hover:text-white transition-colors"
             >
