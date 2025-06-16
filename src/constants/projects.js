@@ -6,6 +6,7 @@ import weatherapp from "../assets/weatherapp.png";
 import TicTacToe from "../assets/TicTacToe.png";
 import todo from "../assets/todo.png";
 import ILMVerse from "../assets/ILM-Verse.png";
+import ChatMates from "../assets/ChatMates.png";
 
 export const projects = [
   {
@@ -24,8 +25,28 @@ export const projects = [
     ],
     image: ILMVerse,
     github: "https://github.com/MohamadAbudraiea/ILM-Verse",
-    isDeployed: false,
-    live: "#",
+    isDeployed: true,
+    live: "https://ilm-verse-frontend-kcil.vercel.app/",
+  },
+  {
+    title: "ChatMates",
+    description:
+      "A real-time chat application that allows users to chat and call each other to learn their languages.",
+    tech: [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "MongoDB (Atlas)",
+      "TanStack Query",
+      "Stream",
+      "MVC Pattern",
+    ],
+    image: ChatMates,
+    github: "https://github.com/KaramYacoub/ChatMates",
+    isDeployed: true,
+    live: "https://chat-matess.vercel.app/",
   },
   {
     title: "Portfolio Website",
