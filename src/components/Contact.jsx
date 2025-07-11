@@ -145,7 +145,12 @@ const Contact = () => {
                 <Mail size={24} className="mr-4 text-blue-400" />
                 <div>
                   <h4 className="font-medium text-white">Email</h4>
-                  <a href='mailto:karamarandas03@gmail.com' className="link link-primary">karamarandas03@gmail.com</a>
+                  <a
+                    href="mailto:karamarandas03@gmail.com"
+                    className="link link-primary"
+                  >
+                    karamarandas03@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -153,7 +158,12 @@ const Contact = () => {
                 <MapPin size={24} className="mr-4 text-blue-400" />
                 <div>
                   <h4 className="font-medium text-white">Location</h4>
-                  <p className="text-gray-400">Amman, Jordan</p>
+                  <a
+                    href="https://maps.app.goo.gl/TGbzhP5Eop4EffsA6"
+                    className="link link-primary"
+                  >
+                    Amman, Jordan
+                  </a>
                 </div>
               </div>
 
@@ -161,7 +171,9 @@ const Contact = () => {
                 <Phone size={24} className="mr-4 text-blue-400" />
                 <div>
                   <h4 className="font-medium text-white">Phone</h4>
-                  <p className="text-gray-400">(+962) 796414772</p>
+                  <a href="tel:0796414772" className="link link-primary">
+                    (+962) 796414772
+                  </a>
                 </div>
               </div>
             </div>
